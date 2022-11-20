@@ -1,0 +1,32 @@
+header, footer {
+    background-color: #1F2937;
+}
+
+/* web is awesome maintext */
+.herotext {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+/* header logos */ 
+.logo-main, .logo-one, .logo-two, .logo-three {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* subtext and button */
+.herotextextra, .clickhere {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* buttons color */
+.catclickhere {
+    color: #3882F6;
+}
+
+/* call to action page */
+.fourthbox {
+    background-color: #3882F6
+}
