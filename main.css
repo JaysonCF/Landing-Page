@@ -1,6 +1,15 @@
 header, footer {
     background-color: #1F2937;
 }
+body, .headerlogo {
+    margin-top: 0px;
+    margin: auto;
+}
+
+.headerlogo {
+    padding-left: 150px;
+    padding-top: 10px;
+}
 
 .maintext {
     font-size: 48px;
