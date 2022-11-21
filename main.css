@@ -1,3 +1,40 @@
 header, footer {
     background-color: #1F2937;
 }
+
+.maintext {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.subtext, .linkstextone, .linkstexttwo, .linkstextthree {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.buttonredirect, .buttonig {
+    color: #3882F6;
+}
+
+.secondtext {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+#thirdpage {
+    color: #E5E7EB;
+}
+
+.thirdpage-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937
+}
+
