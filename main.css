@@ -1,0 +1,21 @@
+/* NAV BAR AND FOOTER BACKGROUND COLOR */
+.navbar, footer {
+    background-color: #1F2937;
+}
+
+/* NAV BAR */
+.linkstext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* MAIN PAGE SECTION */
+.main-pageheader {
+    font-size: 48px;
+    font-style: 700;
+    color: #f9faf8;
+}
+.main-pagesubtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
