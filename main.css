@@ -1,6 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 header {
     display: flex;
     background-color: #1F2937;
+    border: 20px solid;
 }
 .headerlogo {
     font-size: 24px;
@@ -47,6 +54,7 @@ header {
 
 #secondpage {
     display: flex;
+    background-color: white;
 }
 
 .secondtext {
@@ -71,13 +79,36 @@ header {
     font-style: italic;
     color: #1F2937;
 }
+.thirdpage-author {
+    font-style: bold;
+    font-size: 18px;
+}
 
 
 
 #fourthpage {
     background-color: #3882F6;
+    display: flex;
 }
 
-.fourthpagecontent {
+.fourthpagetext {
     color: #E5E7EB;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.fourthpagesubtext {
+    color: #E5E7EB;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.footer {
+    color: #E5E7EB
 }
