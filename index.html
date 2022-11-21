@@ -1,71 +1,86 @@
-<!DOCTYPE html> 
-<html>
- <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
-    <title>Landing-Page</title>
-</head>
-<body>
-    <header>
-        <h2 class="headerlogo">Header logo</h2>
-        <nav id="links">
-            <ul class="listoflinks">
-                <li class="link1"><a class="linkstextone" href="https://youtube.com">header link one</a></li>
-                <li class="link2"><a class="linkstexttwo" href="https://google.com">header link two</a></li>
-                <li class="link3"><a class="linkstextthree" href="https://facebook.com">header link three</a></li>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <title>Landing Page</title>
+    </head>
+
+    
+    <body>
+        <nav class="navbar">
+            <a href="#main-page"><h3 class="navlogo">Header logo</h3></a>
+            <ul class="linksnav">
+                <li><a href="https://google.com">header link one</a></li>
+                <li><a href="https://youtube.com">header link two</a></li>
+                <li><a href="https://instagram.com">header link three</a></li>
             </ul>
         </nav>
-    </header>
-        <div id="firstpage">
-         <h3 class="maintext">This website is awesome</h3>
-         <h1 class="subtext">This website has some subtext that goes here under the main text. It is smaller font and the color is lower contrast</h1>
-         <a class="igbutton" href="https://instagram.com"><button class="buttonig"> Click here</button></a>
-        
-         <div id="imageholder">
-             <p class="imageholdertext">this is just here instead of a image</p>
-         </div>
+
+
+        <div id="main-page"></div>
+            <div class="main-pagecontent">
+                <h2 class="main-pageheader">This landing page is awesome</h2>
+                <p class="main-pagesubtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button id="firstbutton"><a href="https://google.com">Click here</a></button>
+            </div>
+
+            <div class="main-pageimage">
+                <p class="main-pageimagetext">an image goes here</p>
+            </div>
+
         </div>
 
-    <div id="secondpage">
-        <h3 class="secondtext">Some random information</h3>
-        <div class="first-bubble">
-            <img class="first-img" src="">
-            <p class="first-text">this is some subtext under an image not there yet</p>
-        </div>
-        
-        <div class="second-bubble">
-            <img class="second-img" src="">
-            <p class="second-text">this is some subtext under an image not there yet</p>
+
+        <div id="second-page">
+            <div class="second-pagetext">
+                <h2 class="second-pageinfo">Some random information.</h2>
+            </div>
+
+            <div class="second-pageboxes">
+                <div class="second-pageboxone">
+                    <img src="" class="second-pageboximageone">
+                    <p class="second-pageboxonetext">this is some subtext under a image</p>
+                </div>
+                <div class="second-pageboxtwo">
+                    <img src="" class="second-pageboximagetwo">
+                    <p class="second-pageboxtwotext">this is some subtext under an image</p>
+                </div>
+                <div class="second-pageboxthree">
+                    <img src="" class="second-pageboximagethree">
+                    <p class="second-pageboxthreetext">this is some subtext under an image</p>
+                </div>
+                <div class="second-pageboxfour">
+                    <img src="" class="second-pageboximagefour">
+                    <p class="second-pageboxfourtext">this is some subtext under an image</p>
+                </div>
+            </div>
         </div>
 
-        <div class="third-bubble">
-            <img class="third-img" src="">
-            <p class="third-text">this is some subtext under an image not there yet</p>
+
+        <div id="third-page">
+            <div class="third-pagecontent">
+                <p class="third-pagetext">This is an inspiring testimonial from a customer. Maybe it is just filling up space, or maybe somebody will actually read it. Who knows? Atleast it looks nice.</p>
+                    <div class="third-pageauthor">
+                        <p class="third-pageauthor">-Thor, Website Developer</p>
+                     </div>
+            </div>
         </div>
 
-        <div class="fourth-bubble">
-            <img class="fourth-img" src="">
-            <p class="fourth-text">this is some subtext under an image not there yet</p>
-        </div>
-    </div>
 
-    <div id="thirdpage">
-        <p class="thirdpage-text">This is an inspiring testimonial from a customer, maybe it is just filling up space, or maybe somebody will actually read it. Who knows? Atleast it looks nice</p>
-        <div class="thirdpage-author">
-            <p>-Thor, Master Developer</p>
+        <div id="fourth-page">
+            <div class="fourth-pagecontext">
+                <p class="fourth-pagetext">Call to action! It's time!</p>
+                <p class="fourth-pagesubtext">Click that button right over there!</p>
+                <button id="secondbutton">
+                    <a href="https://facebook.com">Click Here</a>
+                </button>
+            </div>
         </div>
-    </div>
+    
 
-    <div id="fourthpage">
-        <div class="fourthpagecontent">
-            <p class="fourthpagetext">Call to action! It's time!</p>
-            <p class="fourthpagesubtext">Click that button over there to redirect!</p>
-            <a class="redirect-button" href="https://google.com"><button class="buttonredirect">Click here</button></a>
-        </div>
-    </div>
-
-    <footer>
-        <p class="footer">this is just some footer text</p>
-    </footer>
-</body>
+        <footer id="footercontent">
+            <p class="footertext">This is just some footer text!</p>
+        </footer>
+    </body>
 </html>
