@@ -1,49 +1,83 @@
-header, footer {
+header {
+    display: flex;
     background-color: #1F2937;
 }
-body, .headerlogo {
-    margin-top: 0px;
-    margin: auto;
-}
-
-.headerlogo {
-    padding-left: 150px;
-    padding-top: 10px;
-}
-
-.maintext {
-    font-size: 48px;
-    font-weight: 700;
-    color: #F9FAF8;
-}
-
-.subtext, .linkstextone, .linkstexttwo, .linkstextthree {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .headerlogo {
     font-size: 24px;
     color: #F9FAF8;
 }
+.linkstextone, .linkstexttwo, .linkstextthree {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.listoflinks {
+    display: flex;
+    list-style: none;
+}
 
-.buttonredirect, .buttonig {
-    color: #3882F6;
+
+.buttonig, .buttonredirect {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+
+#firstpage {
+    background-color: #1F2937;
+    display: flex;
+}
+.maintext {
+    font-size: 48px;
+    font-style: 700;
+    color: #F9FAF8;
+}
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#imageholder {
+    display: flex;
+    background-color: gray;
+}
+.imageholdertext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+#secondpage {
+    display: flex;
 }
 
 .secondtext {
     font-size: 36px;
-    font-weight: 700;
+    font-style: 700;
     color: #1F2937;
 }
+.first-text, .second-text, .third-text, .fourth-text {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
 
 #thirdpage {
-    color: #E5E7EB;
+    display: flex;
+    background-color: #E5E7EB;
 }
 
 .thirdpage-text {
     font-size: 36px;
-    font-style: light italic;
-    color: #1F2937
+    font-style: italic;
+    color: #1F2937;
 }
 
+
+
+#fourthpage {
+    background-color: #3882F6;
+}
+
+.fourthpagecontent {
+    color: #E5E7EB;
+}
