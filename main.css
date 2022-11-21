@@ -1,15 +1,45 @@
-/* NAV BAR AND FOOTER BACKGROUND COLOR */
+/* BODY SECTION */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* NAV AND FOOTER BACKGROUND COLOR */
 .navbar, footer {
     background-color: #1F2937;
 }
 
+
 /* NAV BAR */
+.navbar {
+    display: flex;
+}
 .linkstext {
     font-size: 18px;
     color: #e5e7eb;
 }
+.navlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* BUTTONS */
+.firstbuttontext, .secondbuttontext {
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+#firstbutton, #secondbutton {
+    background-color: #3882f6;
+}
+
 
 /* MAIN PAGE SECTION */
+#main-page {
+    background-color: #1f2937;
+    display: flex;
+}
 .main-pageheader {
     font-size: 48px;
     font-style: 700;
@@ -18,4 +48,59 @@
 .main-pagesubtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+
+/* SECOND PAGE SECTION */
+#second-page {
+    display: flex;
+}
+.second-pageinfo {
+    font-size: 36px;
+    font-style: 700;
+    color: #1f2937
+}
+
+
+/* THIRD PAGE SECTION */
+#third-page {
+    background-color: #e5e7eb;
+    display: flex;
+}
+.third-pagetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.third-pageauthortext {
+    font-size: 18px;
+    font-style: 700;
+    color: #1f2937;
+}
+
+
+/* FOURTH PAGE SECTION */
+#fourth-page {
+    background-color: #e5e7eb;
+    display: flex;
+}
+.fourth-pagebox {
+    background-color: #3882f6;
+    display: flex;
+    margin: 50px;
+    border-radius: 10px;
+}
+.fourth-pagetext {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.fourth-pagesubtext {
+    font-size: 15px;
+    color: #e5e7eb;
+    font-style: italic;
+}
+
+/* FOOTER SECTION */
+footer {
+    display: flex
 }
