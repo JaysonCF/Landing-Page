@@ -14,14 +14,30 @@ body {
 /* NAV BAR */
 .navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .linkstext {
     font-size: 18px;
     color: #e5e7eb;
+    font-style: italic;
 }
-.navlogo {
+.linkstext:link {
+    text-decoration: none;
+}
+.navlogo:link {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 50px;
+    text-decoration: none;
+    font-style: 700;
+}
+.linksnav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 50px;
 }
 
 
@@ -39,15 +55,31 @@ body {
 #main-page {
     background-color: #1f2937;
     display: flex;
+    width: auto;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-pagecontent {
+    padding-left: 60px;
 }
 .main-pageheader {
     font-size: 48px;
     font-style: 700;
     color: #f9faf8;
+    margin-bottom: 0px;
 }
 .main-pagesubtext {
     font-size: 18px;
     color: #e5e7eb;
+    line-height: 0px;
+}
+.main-pageimage {
+    background-color: gray;
+}
+.main-pageimagetext {
+    color: #e5e7eb;
+
 }
 
 
@@ -81,7 +113,6 @@ body {
 
 /* FOURTH PAGE SECTION */
 #fourth-page {
-    background-color: #e5e7eb;
     display: flex;
 }
 .fourth-pagebox {
