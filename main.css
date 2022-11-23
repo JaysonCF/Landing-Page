@@ -149,15 +149,30 @@ body, html{
 /* THIRD SECTION */
 #third-section{
     background-color: #E5e7eb;
-        display: flex;
-        flex-direction: row;
     height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 }
 .third-sectiontext{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    text-align: center;
+}
+.third-sectionauthortext{
+    font-size: 18px;
+    color: #1f2937;
+    font-style: 800;
+    display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-right: 15vw;
+        margin-top: 0;
+}
+
+/* FOURTH SECTION */
+#fourth-section{
+    color: white;
+    height: 50vh;
 }
