@@ -173,6 +173,61 @@ body, html{
 
 /* FOURTH SECTION */
 #fourth-section{
-    color: white;
+    background-color: white;
     height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+.fourth-sectioncontent{
+    background-color: #3882f6;
+    border-radius: 1vw;
+    width: 80vw;
+    height: 18vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.fourth-sectiontext{
+    margin-left: 10vw;
+    color: white;
+}
+.fourth-sectionsubtext{
+    margin-top: 0;
+    font-style: italic;
+    font-size: 16px;
+}
+.fourth-sectionheader{
+    margin-bottom: 0vh;
+    font-size: 24px;
+    font-style:bold;
+}
+
+.fourth-sectionbuttonbox{
+    margin-right: 10vw;
+}
+.fourth-sectionbutton{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5vw;
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1f2937;
+    height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.footertext{
+    color: white;
+    font-style: bold;
+    width: 50vw;
+    text-align: center;
+    font-size: 16px;
 }
