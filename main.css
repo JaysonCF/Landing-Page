@@ -68,6 +68,7 @@ body, html{
 }
 .first-section-subtext{
     margin-top: 1vh;
+    margin-left: -3.5vw;
 }
 .first-section-button{
     border: 0;
